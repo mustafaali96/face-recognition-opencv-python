@@ -1,7 +1,7 @@
 # face-recognition-opencv-python
 power shell:
-pip install opencv-contrib-python --upgrade /n \n
-pip install opencv-python
+> pip install opencv-contrib-python --upgrade,
+> pip install opencv-python
 
 check if openCV installed: 
 C:\> python
