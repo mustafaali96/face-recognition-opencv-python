@@ -62,13 +62,13 @@ mustafa\face_recognition\testopencv> pip install image
 mustafa\face_recognition\testopencv> pip install Pillow
 mustafa\face_recognition\testopencv> python
 
->>>> import cv2
->>>> cv2.__version__
+import cv2
+cv2.__version__
 exit()
 
 mustafa\face_recognition> git clone "https://github.com/mustafaali96/face-recognition-opencv-python.git"
 move src folder to testopencv
 
 powershell:
-mustafa\face_recognition\testopencv> cd src
-mustafa\face_recognition\testopencv\src> python faces.py
+  > mustafa\face_recognition\testopencv> cd src
+  > mustafa\face_recognition\testopencv\src> python faces.py
