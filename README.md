@@ -1,12 +1,17 @@
 # face-recognition-opencv-python
 open power shell and install these dependencies:
-*pip install opencv-contrib-python --upgrade,
-*pip install opencv-python
+pip install opencv-contrib-python --upgrade
+
+pip install opencv-python
 
 check if openCV installed: 
+
 C:\> python
+
 import cv2
+
 print(cv2.__version__)
+
 '3.4.0' # your version may be a newer one
 
 create file name camera-test.py:
