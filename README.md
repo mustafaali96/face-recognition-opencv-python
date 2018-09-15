@@ -26,7 +26,7 @@ while(True):
     cv2.imshow('gray',gray)
     if cv2.waitKey(20) & 0xFF == ord('q'):
         break
-# When everything done, release the capture
+    # When everything done, release the capture
 cap.release()
 cv2.destroyAllWindows()
 
