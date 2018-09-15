@@ -25,15 +25,15 @@ cap = cv2.VideoCapture(0)
 
 while(True):
 
-#Capture frame-by-frame
+Capture frame-by-frame
 
     ret, frame = cap.read()
 
-#Our operations on the frame come here
+Our operations on the frame come here
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-#Display the resulting frame
+Display the resulting frame
 
     cv2.imshow('frame',frame)
     
@@ -43,7 +43,7 @@ while(True):
     
         break
 
-#When everything done, release the capture
+When everything done, release the capture
 
 cap.release()
 
@@ -67,7 +67,7 @@ in my case "face_recognition"
 
 power shell: cd face_recognition
 
-*create virtual env*
+# create virtual environment
 
 >mustafa\face_recognition> virtualenv testopencv
 
@@ -76,24 +76,40 @@ if virtualenv not recognize open cmd and run:
 >pip install --upgrade virtualenv
 
 move to virtualenv dir: 
+
 mustafa\face_recognition> cd testopencv
 
-now activate it:
-mustafa\face_recognition\testopencv> .\Scripts\activate
+now activate virtual environment:
+
+>mustafa\face_recognition\testopencv> .\Scripts\activate
+
+It will be like
+
+>(testopencv)mustafa\face_recognition\testopencv>
+
 
 install dependencies: 
-mustafa\face_recognition\testopencv> pip install opencv-contrib-python --upgrade
-mustafa\face_recognition\testopencv> pip install image
-mustafa\face_recognition\testopencv> pip install Pillow
-mustafa\face_recognition\testopencv> python
+
+>(testopencv)mustafa\face_recognition\testopencv> pip install opencv-contrib-python --upgrade
+
+>(testopencv)mustafa\face_recognition\testopencv> pip install image
+
+>(testopencv)mustafa\face_recognition\testopencv> pip install Pillow
+
+>(testopencv)mustafa\face_recognition\testopencv> python
 
 import cv2
+
 cv2.__version__
+
 exit()
 
-mustafa\face_recognition> git clone "https://github.com/mustafaali96/face-recognition-opencv-python.git"
+>mustafa\face_recognition> git clone "https://github.com/mustafaali96/face-recognition-opencv-python.git"
+
 move src folder to testopencv
 
 powershell:
-mustafa\face_recognition\testopencv> cd src
-mustafa\face_recognition\testopencv\src> python faces.py
+
+>(testopencv)mustafa\face_recognition\testopencv> cd src
+
+>(testopencv)mustafa\face_recognition\testopencv\src> python faces.py
