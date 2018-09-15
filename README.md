@@ -5,7 +5,7 @@ open power shell and install these dependencies:
 
 >pip install opencv-python
 
-#check if openCV installed: 
+# check if openCV installed: 
 
 C:\> python
 
