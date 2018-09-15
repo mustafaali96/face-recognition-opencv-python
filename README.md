@@ -49,22 +49,31 @@ cap.release()
 
 cv2.destroyAllWindows()
 
-Now test if camera works:
-powershell: python camera-test.py
+
+# Now test if camera works:
+
+powershell:
+
+>python camera-test.py
+
 hit "q" to exit
 
 
-**********face Recognition**************
+# face Recognition
+
 create directory
+
 in my case "face_recognition" 
+
 power shell: cd face_recognition
 
 *create virtual env*
 
-mustafa\face_recognition> virtualenv testopencv
+>mustafa\face_recognition> virtualenv testopencv
 
 if virtualenv not recognize open cmd and run: 
-pip install --upgrade virtualenv
+
+>pip install --upgrade virtualenv
 
 move to virtualenv dir: 
 mustafa\face_recognition> cd testopencv
